@@ -4,15 +4,17 @@
 using namespace std;
 int main()
 {
-const double COMM_RATE = 0.1;
+ //declare named constant and variables 
+  const double COMM_RATE = 0.1;
   double sales= 0.0;
   double commission = 0.0;
 
-  
+  //enter input items
   cout << "Sales Amount: "; 
-cin >> sale;
-commission = sales * COMM_RATE;
-  
+  cin >> sales;
+
+  //caulate and display the commission
+  commission = sales * COMM_RATE;
   cout << "Sales Commission: $ "
   <<commission<<endl; 
 
